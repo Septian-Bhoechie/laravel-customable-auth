@@ -1,0 +1,26 @@
+{
+    "name": "bhoechie/laravel-customable-auth",
+    "description": "Customable Auth Provider for Laravel",
+    "keywords": ["laravel", "auth", "customable", "credentials"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Septian Si Bhoechie",
+            "email": "septian.bhoechie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.2.*|5.3.*",
+    },
+    "autoload": {
+        "psr-4": {
+            "Bhoechie\\CustomableAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2-dev"
+        }
+    }
+}
