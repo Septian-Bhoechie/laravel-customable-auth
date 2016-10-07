@@ -15,6 +15,7 @@ class AuthServiceProvider extends ServiceProvider
     {
         $configPath = __DIR__ . '/../config/customableauth.php';
         $this->mergeConfigFrom($configPath, 'customableauth');
+        $this->publishConfig($configPath);
 
         $this->app->singleton('auth', function ($app) {
             // Once the authentication service has actually been requested by the developer
