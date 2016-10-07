@@ -17,10 +17,5 @@
         "psr-4": {
             "Bhoechie\\CustomableAuth\\": "src/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.2-dev"
-        }
     }
 }
