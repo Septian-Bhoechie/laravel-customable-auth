@@ -16,7 +16,7 @@ Then add `Bhoechie\CustomableAuth\AuthServiceProvider` to the `providers` array 
 Configuration
 -------------
  
-You can use `artisan vendor:publish` to copy the distribution configuration file to your app's config directory:
+You must publish config using `artisan vendor:publish` to copy the distribution configuration file to your app's config directory:
 
     php artisan vendor:publish
     
