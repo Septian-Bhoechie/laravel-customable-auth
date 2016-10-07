@@ -4,9 +4,13 @@ This package allowed you to use a credentials field other than a password as def
 ### Requirements
 
 - PHP 5.5
-- Laravel 5.2 +
+- Laravel >= 5.2 
+
 Installation
 ------------
+
+To install the PHP client library using Composer:
+    composer require bhoechie/laravel-customable-auth
     
 Then add `Bhoechie\CustomableAuth\AuthServiceProvider` to the `providers` array in your `config/app.php`:
 
