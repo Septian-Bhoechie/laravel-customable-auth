@@ -12,9 +12,13 @@ Installation
 To install the PHP client library using Composer:
     composer require bhoechie/laravel-customable-auth
     
-Then add `Bhoechie\CustomableAuth\AuthServiceProvider` to the `providers` array in your `config/app.php`:
+Then add `Bhoechie\CustomableAuth\AuthServiceProvider` to the `providers` array in your `config/app.php`  before application service provider:
 
     Bhoechie\CustomableAuth\AuthServiceProvider::class
+    
+    /*
+    * Application Service Providers...
+    */
     
     
 Configuration
